@@ -1,0 +1,39 @@
+page-home {
+   text-align: center;
+   margin-top: 5%;
+
+   .big{
+    text-align: center;   
+    background-size: cover;
+   } 
+
+   .input{
+
+    color: darkblue;
+    // border: 2px solid rgb(45, 45, 155);
+    background-color: aliceblue;
+   }
+
+   ion-input{
+     color:black;
+     font-size: 14px;
+   }
+
+    .wrap{
+        margin-top: 40%;
+        margin-left:10px;
+        margin-right: 10px;
+        text-align: center;
+    }
+    
+    .btn{
+        text-align: center;
+        padding: 14px 16px;
+    }
+
+    .icons{
+        margin-left: 4%;
+    }
+    
+}
+

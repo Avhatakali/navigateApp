@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+  
+    </ion-title>
+
+    
+  </ion-navbar>
+  <img src="../../assets/imgs/mlab-green-2.png">
+</ion-header>
+
+<ion-content padding class="big">
+ <div class="wrap">
+      <ion-item class="input">
+        <ion-label color="primary" floating>Name</ion-label>
+        <ion-input type="text" #firstName ></ion-input>
+    </ion-item>   
+        
+    <ion-item class="input">
+        <ion-label color="primary" floating>Surname</ion-label>
+        <ion-input type="text" #lastName ></ion-input>
+      </ion-item>
+
+    <div class="btn">
+      <button ion-button color = "secondary" type="submit" block  (click) = "addNames( firstName.value, lastName.value)">Submit </button>
+    </div>
+ </div>
+ 
+</ion-content>
